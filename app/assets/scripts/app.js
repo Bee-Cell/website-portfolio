@@ -1,3 +1,2 @@
-//test
-console.log("this is the test file");
-alert("things");
+alert("testing from the app");
+console.log("test from the app");

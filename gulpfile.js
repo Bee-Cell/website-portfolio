@@ -42,13 +42,13 @@ gulp.task("css", function(){
 gulp.task("script", function(callback){
     console.log("starting script task from the watch");
     //installing webpack locally inside watch
-    webpack(require("./webpack.config.js"), function(err,  stats){
-           if(err){
-               console.log(err.toString());
-           } 
-            console.log(stats.toString());
-            callback();
-    }); 
+   webpack(require("./webpack.config.js"), function(err,  stats){
+          if(err){
+              console.log(err.toString());
+          } 
+           console.log(stats.toString());
+           callback();
+   }); 
 });
 
 
