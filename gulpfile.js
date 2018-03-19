@@ -9,6 +9,9 @@ var postcss = require("gulp-postcss"),
     mixins = require("postcss-mixins"),
     cssImport = require("postcss-import"),
     hexrgba = require("postcss-hexrgba");
+
+//webpack
+var webpack = require("webpack");
     
 
 //the task for html
@@ -34,6 +37,22 @@ gulp.task("css", function(){
             .pipe(gulp.dest("./app/temp/styles")) ;
 });
 
+
+//scripts 
+gulp.task("script", function(callback){
+    console.log("starting script task from the watch");
+    //installing webpack locally inside watch
+    webpack(require("./webpack.config.js"), function(err,  stats){
+           if(err){
+               console.log(err.toString());
+           } 
+            console.log(stats.toString());
+            callback();
+    }); 
+});
+
+
+//watch
 gulp.task("watch", function(){
     
     //watching the html index 
@@ -45,4 +64,9 @@ gulp.task("watch", function(){
     watch("./app/assets/styles/**/*.css", function(){
        gulp.start("css"); 
     });
+    
+    //watching the scripts ./app/assets/scripts/**/*.js
+    watch("./app/assets/scripts/**/*.js",function(){
+        gulp.start("script");
+    })
 });
