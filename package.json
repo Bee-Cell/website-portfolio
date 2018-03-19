@@ -1,0 +1,20 @@
+{
+  "name": "website-portfolio",
+  "version": "1.0.0",
+  "description": "It is my website and portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bishal Bhattarai",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-watch": "^5.0.0",
+    "postcss-import": "^11.1.0"
+  }
+}
