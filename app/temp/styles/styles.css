@@ -341,21 +341,3 @@ template {
   display: none;
 }
 
-.name{
-    border: 2px solid #E100FF;
-    
-    
-}
-
-.name-tori{
-        padding: inherit;
-    }
-
-@media(min-width: 530px){
-
-.name-tori{
-            padding: inherit;
-            padding-bottom: 0;
-            padding-right: 12
-    }
-    }
