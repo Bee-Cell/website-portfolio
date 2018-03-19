@@ -9,6 +9,8 @@ $mainBlue: #E100FF;
         
         @mixin atSmall{
             padding: inherit;
+            padding-bottom: 0;
+            padding-right: 12;
         }
     }
     

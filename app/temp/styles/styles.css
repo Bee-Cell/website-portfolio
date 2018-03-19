@@ -354,6 +354,8 @@ template {
 @media(min-width: 530px){
 
 .name-tori{
-            padding: inherit
+            padding: inherit;
+            padding-bottom: 0;
+            padding-right: 12
     }
     }
