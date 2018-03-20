@@ -1,0 +1,19 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+* {
+	box-sizing: border-box; 
+		/*it willnot break the 100% but instead it will do inside 100%*/
+		/*  but these days all developer does it  for all elementall*/
+}
+
+a {
+	color: $mainBlue;
+}
