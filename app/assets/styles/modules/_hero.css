@@ -1,0 +1,33 @@
+.hero {
+	border:2px solid $testDivColor;
+	position: relative;
+	background-color: #84402b;
+	width: 100%;
+	height: 500px;
+	
+	&__text-content{
+		position: absolute;
+		top:20%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		padding-top:0;
+	}
+
+	&__title{
+		font-weight: 300;
+		color:$mainBlue;
+		font-size: 3rem;
+		margin: 0;
+	}
+
+	&__description{
+		color: #FFF;
+		font-size: 2rem;
+		font-weight: 150;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
