@@ -358,7 +358,7 @@ img {
 }
 
 a {
-	color: #46ACC8;
+	color: #9ECCEA;
 }
 
 .wrapper {
@@ -376,36 +376,30 @@ a {
 
 .hero {
 	border:2px solid #00FF7B;
-	position: relative;
-	background-color: #84402b;
-	width: 100%;
+	background-color: #2f5572;
 	height: 500px;
+	color:#FFF;
 
 }
 
 .hero__text-content{
-		position: absolute;
-		top:20%;
-		left: 0;
-		width: 100%;
 		text-align: center;
-		padding-top:0;
+		border:2px solid green;
+		position:relative;
+		width: 900px;
+		margin:100px auto;
 	}
 
 .hero__title{
+		color: teal;
+		font-size: 2.5rem;
 		font-weight: 300;
-		color:#46ACC8;
-		font-size: 3rem;
-		margin: 0;
 	}
 
 .hero__description{
-		color: #FFF;
-		font-size: 2rem;
-		font-weight: 150;
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
-		margin-left: auto;
-		margin-right: auto;
+		font-size: 1.5rem;
+		font-weight: 300;
+		line-height: 2rem;
 	}
 
 .page-section{
@@ -413,7 +407,7 @@ a {
 }
 
 .btn{
-	background-color: #46ACC8;
+	background-color: #9ECCEA;
 	color: #FFF;
 	text-decoration: none;
 	padding: .75rem 1.2rem;
@@ -423,9 +417,10 @@ a {
 }
 
 .btn--outline-none {
-		background-color: rgba(255,255,255,.1);
-		border:2px solid #FFF;
-		border-radius: 20px;
+		background-color: none;
+		border:0.8px solid #FFF;
+		color:#FFF;
+		border-radius: 5px;
 	}
 
 .btn--outline-none:hover

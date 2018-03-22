@@ -1,33 +1,29 @@
 .hero {
 	border:2px solid $testDivColor;
-	position: relative;
-	background-color: #84402b;
-	width: 100%;
+	background-color: #2f5572;
 	height: 500px;
+	color:#FFF;
+	
+
 	
 	&__text-content{
-		position: absolute;
-		top:20%;
-		left: 0;
-		width: 100%;
 		text-align: center;
-		padding-top:0;
+		border:$testBorder;
+		position:relative;
+		width: 900px;
+		margin:100px auto;
 	}
 
 	&__title{
+		color: teal;
+		font-size: 2.5rem;
 		font-weight: 300;
-		color:$mainBlue;
-		font-size: 3rem;
-		margin: 0;
 	}
 
 	&__description{
-		color: #FFF;
-		font-size: 2rem;
-		font-weight: 150;
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
-		margin-left: auto;
-		margin-right: auto;
+		font-size: 1.5rem;
+		font-weight: 300;
+		line-height: 2rem;
 	}
 
 }

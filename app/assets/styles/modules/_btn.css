@@ -6,9 +6,10 @@
 	display: inline-block;
 
 	&--outline-none {
-		background-color:rgba(#FFF,.1);
-		border:2px solid #FFF;
-		border-radius: 20px;
+		background-color: none;
+		border:0.8px solid #FFF;
+		color:#FFF;
+		border-radius: 5px;
 
 		&:hover
 		{
