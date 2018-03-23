@@ -18,4 +18,17 @@
 		float: left;
 
 	}
+
+	&__7{
+		width:58.33%;
+		float: left; 
+	}
+	
+	&__5{
+		
+		width: 41.66%;
+		float: left;
+
+	}
+
 }
