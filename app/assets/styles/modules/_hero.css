@@ -1,6 +1,9 @@
 .hero {
-	border:2px solid $testDivColor;
-	background-color: #2f5572;
+
+	/*background: url("../../assets/images/2.png") center center no-repeat;
+	background-size: cover;*/
+	background: linear-gradient(to right, #182848, #4b6cb7); 
+	border-bottom: 10px solid $themeColor;
 	height: 500px;
 	color:#FFF;
 	
@@ -8,21 +11,20 @@
 	
 	&__text-content{
 		text-align: center;
-		border:$testBorder;
 		position:relative;
 		width: 900px;
 		margin:100px auto;
 	}
 
 	&__title{
-		color: teal;
+		color:$mainBlue;
 		font-size: 2.5rem;
 		font-weight: 300;
 	}
 
 	&__description{
-		font-size: 1.5rem;
-		font-weight: 300;
+		font-size: 1.2rem;
+		font-weight:100;
 		line-height: 2rem;
 	}
 

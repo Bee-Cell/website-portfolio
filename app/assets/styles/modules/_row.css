@@ -1,0 +1,21 @@
+.row{
+
+	@mixin clearfix;
+	
+
+	
+
+	& > div {
+		padding: 20px;
+		
+	}
+
+/*==== GRID BAR of 12 ==== */
+/*==== column ==== */
+	&__4{
+		
+		width: 33.33%;
+		float: left;
+
+	}
+}

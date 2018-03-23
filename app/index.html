@@ -5,6 +5,10 @@
     <title>My Website || Portfolio</title>
     
     <link rel="stylesheet" href="temp/styles/styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+
     <script src="temp/scripts/Vendor.js"></script>
     
 </head>
@@ -34,21 +38,43 @@
     </section> <!-- end hero -->
     
 <!--    fun projects-->
-    <section id="fun-projects">
-        <h3>My creation of portfoilo</h3>
-        <p>I am always passonate on coding and coding and its my god.</p>
-        
-        <div class="project-picture">
-            <div><img src="assets/images/p-one.jpg" alt="picture one"></div>
-            <div><img src="assets/images/p-two.jpg" alt="picture two"></div>
-            <div> <img src="assets/images/p-three.jpg" alt="picture three"></div>
-            <div> <img src="assets/images/p-four.jpg" alt="picture four "></div>
-            <div><img src="assets/images/p-five.jpg" alt="picture five"></div>
-        </div> <!-- end-project-picture -->
+    <section class="fun-project page-section">
+      <div class="wrapper">
+        <h1 class="fun-project__title">My creation of <strong> portfoilo </strong></h1>
+
+        <h3 class="fun-project__subtitle">I am always passonate on coding and coding and its my god.</h3>
+          <div class="row">
+            <div class="row__4">
+              <div class="project-thumbnail project-thumbnail--light-blue">
+                 <img src="assets/images/p-one.jpg" alt="picture one">
+                 <i class="project-thumbnail__icon fas fa-camera-retro"></i>
+              </div>
+              <h4 class="fun-project__project-title"><a href="#">project 1</a> </h4>
+              <p class="fun-project__project-info">lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem <em><a href="#">Read more...</a></em></p>
+
+            </div> <!-- end-col -->
+            <div class="row__4 ">
+              <div class="project-thumbnail project-thumbnail--light-yellow">
+                <img src="assets/images/p-two.jpg" alt="picture two">
+                <i class="project-thumbnail__icon fas fa-images"></i>
+              </div>
+               <h4 class="fun-project__project-title"><a href="#">project 1</a> </h4>
+              <p class="fun-project__project-info">lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem <em><a href="#">Read more...</a></em></p>
+            </div> <!-- colm -->
+            <div class="row__4 ">
+              <div class="project-thumbnail project-thumbnail--light-black">
+               <img src="assets/images/p-three.jpg" alt="picture three">
+               <i class="project-thumbnail__icon fas fa-images"></i>
+           </div>
+              <h4 class="fun-project__project-title"><a href="#">project 1</a> </h4>
+              <p class="fun-project__project-info">lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem lorem ipsemu lorem ipsuem lorem ipsum lorem ipsume lorem ipsuem <em><a href="#">Read more...</a></em></p>
+           </div> <!-- end-col -->
+         </div> <!-- row -->
+      </div>
     </section> <!-- end fun project -->
     
     <!--    for another links in the site header-->
-    <section id="about-me">
+    <section class="about-me page-section">
         <!-- my some picture with effects-->
         <div id="picture">
            <img src="assets/images/my-image-one.jpg" alt="picture-one">

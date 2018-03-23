@@ -6,7 +6,7 @@
 	display: inline-block;
 
 	&--outline-none {
-		background-color: none;
+		background-color: $mainPale;
 		border:0.8px solid #FFF;
 		color:#FFF;
 		border-radius: 5px;
