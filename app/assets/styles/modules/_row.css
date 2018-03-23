@@ -18,6 +18,16 @@
 		float: left;
 
 	}
+	&__9{
+		width: 75%;
+		float: left;
+
+	}
+
+	&__3{
+		width: 25%;
+		float: left;
+	}
 
 	&__7{
 		width:58.33%;
@@ -30,5 +40,15 @@
 		float: left;
 
 	}
+
+	&--col-no-padding-t{
+		padding-top: 14px!important;
+	}
+
+	&__6{
+		width: 50%;
+		float: left;
+	}
+   
 
 }

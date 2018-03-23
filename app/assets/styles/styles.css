@@ -11,4 +11,6 @@
 @import "./modules/_row";
 @import "./modules/_project-thumbnail";
 @import "./modules/_about-me";
-
+@import "./modules/_generic-content-container";
+@import "./modules/_alert";
+@import "./modules/_progress";

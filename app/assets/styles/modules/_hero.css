@@ -6,13 +6,13 @@
 	border-bottom: 10px solid $themeColor;
 	height: 500px;
 	color:#FFF;
+	position: relative;
 	
 
 	
 	&__text-content{
 		text-align: center;
 		position:absolute;
-		width: 900px;
 		left:50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
